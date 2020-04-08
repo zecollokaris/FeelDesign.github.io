@@ -271,10 +271,7 @@ section.home-container {
 
 
 
-html.loaded .transition-loading span {
-    transform-origin: right;
-    transform: scaleX(0);
-}
+
 
 .menu-spin {
     display: none;
