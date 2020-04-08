@@ -237,13 +237,6 @@ section.home-container {
 
 
 
-section.related-container {
-    height: 40vh;
-    margin: 100px 1px;
-    overflow: visible;
-    padding: 0 200px;
-}
-
 section.related-container a {
     height: 100%;
     position: relative;
