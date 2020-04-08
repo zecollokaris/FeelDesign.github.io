@@ -234,14 +234,6 @@ section.home-container {
 
 
 
-section.project-story {
-    width: 100%;
-    position: relative;
-    padding: 5vh 100px;
-    box-sizing: border-box;
-    padding-top: 60px;
-}
-
 section.project-story>h1 {
     font-weight: bold;
     font-size: 40px;
