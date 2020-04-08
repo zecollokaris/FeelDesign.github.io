@@ -236,18 +236,6 @@ section.home-container {
 
 
 
-
-.c-contents {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 50px;
-    opacity: 0;
-    transform: translateY(200px) scale(0);
-    animation: contactmove 2s 3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-}
-
 @keyframes upmove {
     0% {
         transform: translateY(100px);
