@@ -236,15 +236,6 @@ section.home-container {
 
 
 
-
-
-
-.box-info p {
-    transition: 0.5s 0s cubic-bezier(0.4, 0, 0, 1.06) all;
-    transform: translateY(50px);
-    opacity: 0;
-}
-
 a.project-box:hover h2 {
     transform: translateY(0px);
     opacity: 1;
