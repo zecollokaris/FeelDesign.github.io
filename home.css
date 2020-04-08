@@ -235,14 +235,6 @@ section.home-container {
 
 
 
-
-a.project-box:hover h2 {
-    transform: translateY(0px);
-    opacity: 1;
-    filter: blur(0px);
-    transition: 0.5s 0s cubic-bezier(0.4, 0, 0, 1.06) all;
-}
-
 a.project-box:hover p {
     transform: translateY(0px);
     opacity: 1;
