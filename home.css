@@ -231,11 +231,6 @@ section.home-container {
 
 
 
-.member-title h1 {
-    font-weight: bold;
-    font-size: 40px;
-}
-
 .switch:before {
     content: 'Please dont touch this...!';
     position: absolute;
