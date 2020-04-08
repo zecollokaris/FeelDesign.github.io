@@ -231,18 +231,6 @@ section.home-container {
 
 
 
-
-.background-room {
-    height: inherit;
-    background-size: cover;
-    background-position: center;
-}
-
-.background-room picture {
-    width: 100%;
-    height: 100%;
-}
-
 .background-room img {
     width: 100%;
     height: 100%;
