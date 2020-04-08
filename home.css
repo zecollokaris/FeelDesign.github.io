@@ -235,22 +235,7 @@ section.home-container {
 
 
 
-.switch input~label i {
-    display: block;
-    height: 21px;
-    width: 21px;
-    position: absolute;
-    left: 2px;
-    top: 2px;
-    z-index: 2;
-    border-radius: inherit;
-    background: #283446;
-    /* Fallback */
-    background: linear-gradient(#36455b, #283446);
 
-    -webkit-transition: all .5s ease;
-    transition: all .5s ease;
-}
 
 .switch label+span {
     content: "";
