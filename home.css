@@ -294,9 +294,9 @@ section.home-container {
         background-repeat: no-repeat;
     }
 
+    /* NAV BAR */
     header nav {
         padding: 0;
-        /* display: none; */
         height: 100vh;
         width: 100vw;
         background: rgba(226, 10, 64, 0.359);
@@ -309,28 +309,15 @@ section.home-container {
         transform: none;
     }
 
-    html.open-menu a.identity {
-        filter: brightness(100);
-    }
-
-    html.open-menu .menu-spin span,
-    html.open-menu .menu-spin p {
-        opacity: 0;
-    }
-
     html.open-menu .menu-spin .close {
-        opacity: 1;
-    }
-
-    p.image-caption {
-        padding: 10px;
+        opacity: 3;
     }
 
     header nav ul {
         position: absolute;
         height: 100vh;
         width: 100vw;
-        padding: 20vh 0;
+        padding: 10vh 0;
         left: 0;
         top: 0;
         display: flex;
@@ -341,8 +328,8 @@ section.home-container {
 
     header nav ul li {
         margin: 0;
-        transform: skewX(50deg) translateY(20px);
-        transition: 0.5s 0s;
+        transform: skewX(60deg) translateY(20px);
+        transition: 0.8s 0s;
     }
 
     html.open-menu header nav ul li {
