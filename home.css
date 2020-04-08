@@ -237,14 +237,6 @@ section.home-container {
 
 
 
-.head-contact {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 90px;
-}
 
 .c-up-head {
     height: 140px;
