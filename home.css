@@ -273,17 +273,8 @@ section.home-container {
 
 
 
-.menu-spin {
-    display: none;
-    pointer-events: none;
-}
 
-.swiper-button-next,
-.swiper-container-rtl .swiper-button-prev {
-    right: 100px !important;
-    left: auto;
-    height: 20px !important;
-}
+
 
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
