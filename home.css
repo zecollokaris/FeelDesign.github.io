@@ -231,13 +231,6 @@ section.home-container {
 
 
 
-.room-container {
-    height: calc(100vh + 100px);
-    width: 100vw;
-    display: inline-block;
-    margin: -100px;
-    margin-bottom: 10px;
-}
 
 .whiteroom {
     height: 100vh;
