@@ -234,11 +234,6 @@ section.home-container {
 
 
 
-
-.swiper-pagination-bullet-active {
-    background: #000 !important;
-}
-
 .swiper-container {
     box-sizing: border-box;
     height: 100%;
