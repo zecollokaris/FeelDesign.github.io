@@ -236,23 +236,6 @@ section.home-container {
 
 
 
-@keyframes upmove {
-    0% {
-        transform: translateY(100px);
-        opacity: 0;
-    }
-
-    50% {
-        transform: translateY(100px);
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
-
 @keyframes downmove {
     0% {
         transform: translateY(-100px);
