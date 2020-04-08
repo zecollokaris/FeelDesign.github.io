@@ -234,12 +234,6 @@ section.home-container {
 
 
 
-section.image-gallery {
-    position: relative;
-    display: inline-block;
-    width: 99vw;
-    overflow-x: hidden;
-}
 
 section.image-gallery picture {
     width: 100vw;
