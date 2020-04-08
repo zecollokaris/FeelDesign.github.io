@@ -239,26 +239,6 @@ section.home-container {
 
 
 
-
-
-
-
-a.project-box.loaded {
-    pointer-events: all;
-}
-
-a.project-box:hover .box-info {
-    opacity: 1;
-}
-
-.images-box {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    transform: scale(0);
-    transition: 1.5s cubic-bezier(0.4, 0, 0, 0.99) all;
-}
-
 a.project-box.loaded .images-box {
     transform: scale(1);
 }
