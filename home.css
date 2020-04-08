@@ -269,13 +269,7 @@ section.home-container {
 
 
 
-.transition-loading span:nth-of-type(3) {
-    transition-delay: 0.6s;
-}
 
-.transition-loading span:nth-of-type(4) {
-    transition-delay: 0.8s;
-}
 
 html.loaded .transition-loading span {
     transform-origin: right;
