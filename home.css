@@ -237,13 +237,6 @@ section.home-container {
 
 
 
-section.related-container a h2 {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-}
-
 .head-contact {
     min-height: 100vh;
     display: flex;
