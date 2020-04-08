@@ -234,14 +234,6 @@ section.home-container {
 
 
 
-
-html.contact-left-head .c-up-head img:last-of-type,
-html.contact-right-head .c-up-head img:last-of-type,
-html.contact-left-head .c-down-head img:last-of-type,
-html.contact-right-head .c-down-head img:last-of-type {
-    opacity: 1;
-}
-
 html.contact-right-head .c-down-head img:last-of-type {
     transform: rotateY(180deg);
 }
