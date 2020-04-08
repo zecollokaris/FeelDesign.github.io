@@ -65,6 +65,11 @@ header nav ul li {
 }
 
 /* Minimized Nav Bar! */
+.menu-spin {
+    display: none;
+    pointer-events: none;
+}
+
 header nav ul li:after {
     content: '';
     width: 100%;
@@ -274,6 +279,19 @@ section.home-container {
 
 
 
+
+
+
+.swiper-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+p.image-caption {
+    padding: 10px 8vw;
+    text-align: justify;
+}
 
 .creator-title {
     font-size: 12px;
