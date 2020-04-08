@@ -235,18 +235,6 @@ section.home-container {
 
 
 
-@keyframes pakage-onstage {
-    0% {
-        opacity: 0;
-        transform: translateX(100px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
 .main-center-image img {
     height: 80vh;
 }
