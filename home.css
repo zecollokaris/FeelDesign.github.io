@@ -237,14 +237,6 @@ section.home-container {
 
 
 
-section.related-container .related-box-img {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    opacity: 0.6;
-    background-position: center;
-}
-
 section.related-container a h2 {
     position: absolute;
     top: 50%;
