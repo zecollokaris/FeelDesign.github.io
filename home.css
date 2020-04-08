@@ -265,16 +265,7 @@ html.loaded .loading {
     pointer-events: none;
 }
 
-.loading-icons {
-    top: 50%;
-    position: absolute;
-    transform: translateY(-50%);
-    color: #666;
-    width: 50vw;
-    height: 130px;
-    opacity: 1;
-    transition: 0.5s ease;
-}
+
 
 html.loaded .loading-icons {
     opacity: 0;
