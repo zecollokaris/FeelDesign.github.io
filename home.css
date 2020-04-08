@@ -235,17 +235,6 @@ section.home-container {
 
 
 
-html.contact-left-head .c-up-head img:first-of-type,
-html.contact-right-head .c-up-head img:first-of-type,
-html.contact-left-head .c-down-head img:first-of-type,
-html.contact-right-head .c-down-head img:first-of-type,
-.c-up-head img:last-of-type,
-.c-up-head img:last-of-type,
-.c-down-head img:last-of-type,
-.c-down-head img:last-of-type {
-    opacity: 0;
-}
-
 html.contact-left-head .c-up-head img:last-of-type,
 html.contact-right-head .c-up-head img:last-of-type,
 html.contact-left-head .c-down-head img:last-of-type,
