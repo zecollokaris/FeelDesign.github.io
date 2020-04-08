@@ -270,13 +270,7 @@ section.home-container {
     top: 50px;
 }
 
-.transition-loading {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100vw;
-}
+
 
 .transition-loading span {
     background: #1d1d1d;
