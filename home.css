@@ -235,17 +235,6 @@ section.home-container {
 
 
 
-
-.main-center-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    opacity: 0;
-    transition: 1s;
-    animation: pakage-onstage 3s 2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-}
-
 .swiper-pagination-bullet-active {
     background: #000 !important;
 }
