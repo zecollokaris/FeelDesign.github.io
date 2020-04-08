@@ -1,6 +1,12 @@
 /* ##################################################### */
 /* ##################################################### */
 /* WHOLE BODY DESIGN */
+html *,
+html *::before,
+html *::after {
+    box-sizing: inherit;
+    text-rendering: optimizeLegibility;
+}
 
 body {
     background-image: url(images/chessbg2.png);
@@ -22,7 +28,7 @@ a {
 
 a.identity img {
     width: 60px;
-    padding: 80px 100px;
+    padding: 70px 100px;
     transition: 1s ease;
     opacity: 0.6;
 }
@@ -46,6 +52,7 @@ header nav {
     top: 0;
     padding: 100px;
 }
+
 
 header nav ul li {
     position: relative;
@@ -83,6 +90,9 @@ header nav ul li:hover:after {
         transform: translateX(200%);
     }
 }
+
+
+
 
 /* ##################################################### */
 /* SOCIAL ICONS */
@@ -237,38 +247,17 @@ section.home-container {
 
 
 
-.switch label+span {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    right: 0px;
-    top: 9px;
-    width: 7px;
-    height: 7px;
-    border-radius: 10px;
-    background: #c5c5c5;
-    background: gradient-gradient(#36455b, #283446);
-    -webkit-transition: all .5s ease;
-    transition: all .5s ease;
-    z-index: 2;
-}
 
-/* Toggle */
-.switch input:checked~label+span {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    top: 9px;
-    width: 7px;
-    height: 7px;
-    border-radius: 10px;
-    -webkit-transition: all .5s ease;
-    transition: all .5s ease;
-    z-index: 2;
-    background: #b9f3fe;
-    background: gradient-gradient(#ffffff, #77a1b9);
-    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1), 0 0 10px rgba(100, 231, 253, 1), inset 0 0 8px rgba(61, 157, 247, 0.8), inset 0 -2px 5px rgba(185, 231, 253, 0.3), inset 0 -3px 8px rgba(185, 231, 253, 0.5);
-}
+
+
+
+
+
+
+
+
+
+
 
 .switch input:checked~label i {
     left: auto;

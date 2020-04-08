@@ -132,3 +132,353 @@ h1 {
     outline-offset: 15px;
     text-shadow: 1px 1px 2px #427388;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ##################################################### */
+/* ##################################################### */
+/* WHOLE BODY DESIGN */
+
+body {
+    background-image: url(images/chessbg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+/* ##################################################### */
+/* NAV BAR!! */
+/* ##################################################### */
+
+
+/* Nav Bar Image! */
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a.identity img {
+    width: 60px;
+    padding: 80px 100px;
+    transition: 1s ease;
+    opacity: 0.6;
+}
+
+a.identity:hover img {
+    opacity: 2;
+}
+
+/* Nav Bar Text! */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    font-family: 'Josefin Slab', serif;
+}
+
+header nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 100px;
+}
+
+
+header nav ul li {
+    position: relative;
+    float: left;
+    margin: 0 0 0 50px;
+    font-weight: bold;
+    /* #Nav Bar Text Size# */
+    font-size: .9em;
+    overflow: hidden;
+}
+
+/* Minimized Nav Bar! */
+header nav ul li:after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background: #000;
+    position: absolute;
+    left: -100%;
+    transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
+    top: 7px;
+    pointer-events: none;
+}
+
+header nav ul li:hover:after {
+    animation: menuHover 1s ease forwards;
+}
+
+@keyframes menuHover {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(200%);
+    }
+}
+
+
+
+
+
+
+
+a.identity {
+    position: relative;
+    display: block;
+    width: 100px;
+    z-index: 100;
+    transition: 0.5s;
+}
+
+a.identity img {
+    width: 50px;
+    padding: 70px 100px;
+    transition: 1s ease;
+    opacity: 0.6;
+}
+
+html.about a.identity img {
+    /* filter: brightness(100); */
+}
+
+html.about nav a {
+    color: #fff;
+}
+
+a.identity:hover img {
+    opacity: 1;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 100px;
+}
+
+html.dark header nav a {
+    color: #fff;
+    text-shadow: 1px 1px 7px #7a7a7a;
+}
+
+html.dark .swiper-pagination-bullet,
+html.dark .swiper-pagination-bullet-active {
+    background: #fff !important;
+}
+
+html.dark a.identity {
+    filter: brightness(100);
+}
+
+header nav ul li {
+    position: relative;
+    float: left;
+    margin: 0 0 0 50px;
+    font-weight: bold;
+    font-size: .8em;
+    overflow: hidden;
+}
+
+header nav ul li:after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background: #000;
+    position: absolute;
+    left: -100%;
+    transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
+    top: 7px;
+    pointer-events: none;
+}
+
+header nav ul li:hover:after {
+    animation: menuHover 1s ease forwards;
+}
+
+@keyframes menuHover {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(200%);
+    }
+}
+
+
+
+
+
+
+/* ##################################################### */
+/* SOCIAL ICONS */
+/* ##################################################### */
+
+
+.social-pins img {
+    width: inherit;
+}
+
+html.dark .social-pins a {
+    color: #fff;
+}
+
+html.open-menu .social-pins img {
+    filter: contrast(0);
+}
+
+
+html.dark .swiper-button-next,
+html.dark .swiper-button-prev {
+    filter: contrast(0);
+}
+
+.social-pins {
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.social-pins {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 100px;
+    opacity: 0.5;
+    width: 15px;
+}
+
+.social-pins a {
+    width: inherit;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Activation of Instagram and Facebook Social Icons!! */
+a.inst-more-link {
+    border: 1px solid #000;
+    padding: 20px 20px;
+    position: relative;
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    transition: 1s ease all;
+}
+
+a.inst-more-link:hover {
+    color: #fff;
+    background: #000;
+}
+
+/* ##################################################### */
+/* BUTTON SECTION */
+/* ##################################################### */
+
+.head-svg {
+    width: 50vw;
+}
+
+/* ##################################################### */
+/* PLAY STORE SECTION! */
+/* ##################################################### */
+
+
+div.cssDesignerAward {
+    position: absolute;
+    bottom: 0;
+}
+
+div.cssDesignerAward ul.cssDesignerAwardParts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.cssDesignerAward ul.cssDesignerAwardParts li {
+    float: left;
+    display: block;
+}
+
+div.cssDesignerAward ul.cssDesignerAwardParts li a {
+    padding: 0 6px;
+}
+
+div.cssDesignerAward ul.cssDesignerAwardParts li a img {
+    width: 80px;
+}
+
+/* ##################################################### */
+/* BUTTON AT CENTER */
+/* ##################################################### */
+
+
+section.home-container {
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-info {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 0 0 137px 0;
+}
+
+/* FOOOTER TEXT! */
+.home-info h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Space Mono', monospace;
+}
+
+/* ##################################################### */
