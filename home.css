@@ -260,18 +260,6 @@ section.home-container {
 
 
 
-.loading {
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    /* background: black; */
-    z-index: 999999;
-    overflow: hidden;
-    width: 100%;
-    pointer-events: all;
-}
 
 html.loaded .loading {
     pointer-events: none;
