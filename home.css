@@ -259,21 +259,6 @@ section.home-container {
 
 
 
-
-
-canvas#scene {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999;
-    opacity: 0;
-}
-
-html.crazy canvas#scene {
-    opacity: 1;
-    width: 100vw !important;
-}
-
 html.crazy header {
     display: none;
 }
