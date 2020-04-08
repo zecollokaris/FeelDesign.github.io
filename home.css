@@ -259,13 +259,6 @@ section.home-container {
 
 
 
-html.crazy header {
-    display: none;
-}
-
-html.crazy {
-    overflow: hidden;
-}
 
 .loading {
     position: fixed;
