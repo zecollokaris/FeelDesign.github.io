@@ -261,23 +261,7 @@ section.home-container {
 
 
 
-html.loaded .loading {
-    pointer-events: none;
-}
 
-
-
-html.loaded .loading-icons {
-    opacity: 0;
-}
-
-.loading-icons img {
-    position: absolute;
-    display: none;
-    width: 120px;
-    left: 0;
-    top: 0;
-}
 
 .loading-icons h1 {
     position: absolute;
