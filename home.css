@@ -235,23 +235,6 @@ section.home-container {
 
 
 
-@keyframes contactmove {
-    0% {
-        opacity: 0;
-        transform: translateY(200px) scale(0);
-    }
-
-    50% {
-        opacity: 1;
-        transform: translateY(0px) scale(0.5);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0px) scale(1);
-    }
-}
-
 html.contact-left-head .c-up-head img:first-of-type,
 html.contact-right-head .c-up-head img:first-of-type,
 html.contact-left-head .c-down-head img:first-of-type,
