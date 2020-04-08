@@ -148,17 +148,18 @@ a.inst-more-link:hover {
 /* BUTTON SECTION */
 /* ##################################################### */
 
-
 .head-svg {
     width: 50vw;
 }
 
+/* ##################################################### */
+/* PLAY STORE SECTION! */
+/* ##################################################### */
 
-/*--------------Home Page---------------*/
+
 div.cssDesignerAward {
     position: absolute;
     bottom: 0;
-    right: 0;
 }
 
 div.cssDesignerAward ul.cssDesignerAwardParts {
@@ -180,9 +181,13 @@ div.cssDesignerAward ul.cssDesignerAwardParts li a img {
     width: 80px;
 }
 
-/*--------------Home Page---------------*/
+/* ##################################################### */
+/* BUTTON AT CENTER */
+/* ##################################################### */
+
+
 section.home-container {
-    height: 100vh;
+    height: 92vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -196,8 +201,6 @@ section.home-container {
     width: 100%;
     padding: 0 0 137px 0;
 }
-
-
 /* FOOOTER TEXT! */
 .home-info h2 {
     margin: 0;
@@ -208,7 +211,7 @@ section.home-container {
     vertical-align: baseline;
     font-family: 'Space Mono', monospace;
 }
-
+/* ##################################################### */
 
 
 /* head motions by svg */
