@@ -234,12 +234,6 @@ section.home-container {
 
 
 
-section.project-story>h1 {
-    font-weight: bold;
-    font-size: 40px;
-    padding-bottom: 30px;
-}
-
 section.image-gallery {
     position: relative;
     display: inline-block;
