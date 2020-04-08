@@ -243,23 +243,6 @@ section.home-container {
 
 
 
-.box-info {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.7411764705882353);
-    top: 0;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 20px;
-    font-size: 12px;
-    transform: translateZ(20px);
-    opacity: 0;
-    transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1) all;
-}
-
 a.project-box.loaded {
     pointer-events: all;
 }
