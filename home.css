@@ -275,59 +275,6 @@ section.home-container {
 
 
 
-
-.swiper-button-prev,
-.swiper-container-rtl .swiper-button-next {
-    left: 100px !important;
-    height: 22px !important;
-}
-
-
-.scroll-pin {
-    margin-top: -50px;
-    width: 100%;
-    text-align: left;
-    z-index: 50;
-    position: relative;
-    padding-left: 8vw;
-}
-
-.swiper-slide {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
-
-.swiper-slide img {
-    width: 50%;
-    height: 80%;
-    cursor: move;
-    object-fit: contain;
-}
-
-
-
-
-.swiper-wrapper {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-p.image-caption {
-    padding: 10px 8vw;
-    text-align: justify;
-}
-
 .creator-title {
     font-size: 12px;
     margin: 20px 0 30px 0;
