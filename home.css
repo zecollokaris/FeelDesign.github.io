@@ -234,19 +234,6 @@ section.home-container {
 
 
 
-.switch label {
-    display: block;
-    width: 80%;
-    height: 100%;
-    position: relative;
-    background: #1F2736;
-    background: linear-gradient(#ffffff, #b7b7b7);
-    background: #fff;
-    border-radius: 30px 30px 30px 30px;
-
-    -webkit-transition: all .5s ease;
-    transition: all .5s ease;
-}
 
 .switch input~label i {
     display: block;
