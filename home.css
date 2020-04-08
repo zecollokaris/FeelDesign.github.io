@@ -229,13 +229,6 @@ section.home-container {
 
 
 
-.member {
-    z-index: 10;
-    position: absolute;
-    top: 0;
-    height: inherit;
-}
-
 .member img {
     height: 100%;
     opacity: 0.4;
