@@ -230,14 +230,6 @@ section.home-container {
 
 
 
-
-
-
-
-html.contact-right-head .c-down-head img:last-of-type {
-    transform: rotateY(180deg);
-}
-
 html.contact-right-head .c-up-head img:last-of-type {
     transform: rotateY(180deg) translateX(50px);
 }
