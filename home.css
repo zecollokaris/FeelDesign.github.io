@@ -1,219 +1,43 @@
-html *,
-html *::before,
-html *::after {
-    box-sizing: inherit;
-    text-rendering: optimizeLegibility;
-}
-
-html {
-    overflow-x: hidden;
-}
-
-::-webkit-scrollbar {
-    width: 7px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #ccc;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
+/* ##################################################### */
+/* ##################################################### */
+/* WHOLE BODY DESIGN */
 
 body {
-    -webkit-font-smoothing: subpixel-antialiased;
-    -moz-osx-font-smoothing: grayscale;
-        background-image: url(images/chessbg2.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-}
-
-* {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-user-drag: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+    background-image: url(images/chessbg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    font-family: 'Space Mono', monospace;
 }
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
+/* ##################################################### */
+/* NAV BAR!! */
+/* ##################################################### */
 
-ol,
-ul {
-    list-style: none;
-}
 
-blockquote,
-q {
-    quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
+/* Nav Bar Image! */
 a {
     color: #000000;
     text-decoration: none;
 }
 
-/* general */
-header h1 {
-    padding: 100px;
-}
-
-a.identity {
-    position: relative;
-    display: block;
-    width: 100px;
-    z-index: 100;
-    transition: 0.5s;
-}
-
 a.identity img {
-    width: 70px;
-    padding: 70px 100px;
+    width: 60px;
+    padding: 80px 100px;
     transition: 1s ease;
     opacity: 0.6;
 }
 
-html.about a.identity img {
-}
-
-html.about nav a {
-    color: #fff;
-}
-
 a.identity:hover img {
-    opacity: 1;
+    opacity: 2;
 }
 
+/* Nav Bar Text! */
 header {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
+    font-family: 'Josefin Slab', serif;
 }
 
 header nav {
@@ -223,29 +47,17 @@ header nav {
     padding: 100px;
 }
 
-html.dark header nav a {
-    color: #fff;
-    text-shadow: 1px 1px 7px #7a7a7a;
-}
-
-html.dark .swiper-pagination-bullet,
-html.dark .swiper-pagination-bullet-active {
-    background: #fff !important;
-}
-
-html.dark a.identity {
-    filter: brightness(100);
-}
-
 header nav ul li {
     position: relative;
     float: left;
     margin: 0 0 0 50px;
     font-weight: bold;
-    font-size: .8em;
+    /* #Nav Bar Text Size# */
+    font-size: .9em;
     overflow: hidden;
 }
 
+/* Minimized Nav Bar! */
 header nav ul li:after {
     content: '';
     width: 100%;
@@ -272,8 +84,32 @@ header nav ul li:hover:after {
     }
 }
 
+/* ##################################################### */
+/* SOCIAL ICONS */
+/* ##################################################### */
+
+
 .social-pins img {
     width: inherit;
+}
+
+html.dark .social-pins a {
+    color: #fff;
+}
+
+html.open-menu .social-pins img {
+    filter: contrast(0);
+}
+
+
+html.dark .swiper-button-next,
+html.dark .swiper-button-prev {
+    filter: contrast(0);
+}
+
+.social-pins {
+    padding: 10px;
+    transition: 0.5s;
 }
 
 .social-pins {
@@ -285,35 +121,38 @@ header nav ul li:hover:after {
     width: 15px;
 }
 
-html.dark .social-pins a {
-    color: #fff;
-}
-
-html.dark .swiper-button-next,
-html.dark .swiper-button-prev {
-    filter: contrast(0);
-}
-
 .social-pins a {
     width: inherit;
     display: inline-block;
     margin-top: 10px;
 }
 
-/*homepage*/
-/*homepage*/
-/*homepage*/
-/*homepage*/
-/*homepage*/
-/*homepage*/
-/*homepage*/
-/*homepage*/
+/* Activation of Instagram and Facebook Social Icons!! */
+a.inst-more-link {
+    border: 1px solid #000;
+    padding: 20px 20px;
+    position: relative;
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    transition: 1s ease all;
+}
+
+a.inst-more-link:hover {
+    color: #fff;
+    background: #000;
+}
+
+/* ##################################################### */
+/* BUTTON SECTION */
+/* ##################################################### */
+
+
 .head-svg {
     width: 50vw;
-    margin: auto;
-    position: relative;
-    transform: translateY(-50px);
 }
+
 
 /*--------------Home Page---------------*/
 div.cssDesignerAward {
@@ -357,6 +196,20 @@ section.home-container {
     width: 100%;
     padding: 0 0 137px 0;
 }
+
+
+/* FOOOTER TEXT! */
+.home-info h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Space Mono', monospace;
+}
+
+
 
 /* head motions by svg */
 .object {
