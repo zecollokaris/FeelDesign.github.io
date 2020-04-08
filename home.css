@@ -236,15 +236,6 @@ section.home-container {
 
 
 
-section.image-gallery picture img {
-    width: 100%;
-    position: relative;
-    height: 100%;
-    margin-bottom: 1px;
-    display: block;
-    vertical-align: bottom;
-    margin-bottom: 50px;
-}
 
 section.related-container {
     height: 40vh;
