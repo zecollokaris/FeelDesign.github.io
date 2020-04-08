@@ -243,14 +243,6 @@ section.home-container {
 
 
 
-
-a.project-box.loaded.close {
-    opacity: 0.2;
-    filter: blur(2px);
-    pointer-events: none;
-}
-
-
 .box-info {
     position: absolute;
     height: 100%;
