@@ -231,10 +231,6 @@ section.home-container {
 
 
 
-html.contact-left-head .c-up-head img:last-of-type {
-    transform: rotateY(0deg) translateX(50px);
-}
-
 .room-container {
     height: calc(100vh + 100px);
     width: 100vw;
