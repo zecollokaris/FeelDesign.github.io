@@ -239,25 +239,6 @@ section.home-container {
 
 
 
-a.project-box.loaded .images-box {
-    transform: scale(1);
-}
-
-.images-box img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.box-info h2 {
-    font-size: 20px;
-    font-weight: bold;
-    transition: 0.5s 0.2s cubic-bezier(0.4, 0, 0, 1.06) all;
-    transform: translateY(50px);
-    opacity: 0;
-    filter: blur(2px);
-}
-
 .box-info p {
     transition: 0.5s 0s cubic-bezier(0.4, 0, 0, 1.06) all;
     transform: translateY(50px);
