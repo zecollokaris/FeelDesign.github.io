@@ -235,11 +235,6 @@ section.home-container {
 
 
 
-section.image-gallery picture {
-    width: 100vw;
-    position: relative;
-    padding: 0;
-}
 
 section.image-gallery picture img {
     width: 100%;
