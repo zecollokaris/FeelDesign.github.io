@@ -9,7 +9,7 @@ To View My Portfolio Click Here Below :point_down:
 ## WEBSITE DESIGN!
 
 <p align="center">
-<img align="centre" src="Spec.md/Web.png" alt="Website device" />
+<img align="centre" src="Spec.md/web.png" alt="Website device" />
 <p>
 
 ## MOBILE DESIGN!
