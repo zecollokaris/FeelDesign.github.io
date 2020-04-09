@@ -1,4 +1,4 @@
-# FEEL-DESIGN! 
+# FEEL DESIGN! 
 
 An ambitious Full-stack and Android developer, with a passion for art, photography, designing and building beautiful and functional user applications.
 
@@ -22,6 +22,7 @@ To View Feel Design Click Here Below :point_down:
 <img align="right" width="250" src="Spec.md/mobile2.png" alt="Mobile Menu Design" />
 <p>
 
+### QUOTE!
 <p align="center">
-<img align="center" width="250" src="Spec.md/tweet.png" alt="Tweet"/>
+<img align="center" width="600" src="Spec.md/tweet.png" alt="Tweet"/>
 <p>
