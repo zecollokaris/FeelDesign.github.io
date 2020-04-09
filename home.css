@@ -9,7 +9,7 @@ html *::after {
 }
 
 body {
-    background-image: url(images/chessbg2.png);
+    background-image: url(images/backg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -95,8 +95,6 @@ header nav ul li:hover:after {
         transform: translateX(200%);
     }
 }
-
-
 
 
 /* ##################################################### */
