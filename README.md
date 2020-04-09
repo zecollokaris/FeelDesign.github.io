@@ -15,6 +15,10 @@ To View Feel Design Click Here Below :point_down:
 <p align="center">
 <img align="centre" src="Spec.md/web.png" alt="Website device" />
 <p>
+### QUOTE!
+<p align="center">
+<img align="center" width="600" src="Spec.md/tweet.png" alt="Tweet"/>
+<p>
 
 ## MOBILE DESIGN!
 <p align="center">
@@ -22,7 +26,3 @@ To View Feel Design Click Here Below :point_down:
 <img align="right" width="250" src="Spec.md/mobile2.png" alt="Mobile Menu Design" />
 <p>
 
-### QUOTE!
-<p align="center">
-<img align="center" width="600" src="Spec.md/tweet.png" alt="Tweet"/>
-<p>
