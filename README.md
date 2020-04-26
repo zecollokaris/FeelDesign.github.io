@@ -19,7 +19,7 @@ To View Feel Design Click Here Below :point_down:
 ### QUOTE!
 
 <p align="center">
-<img align="center" width="400" src="Spec.md/tweet.png" alt="Tweet"/>
+<img align="center" width="400" src="Spec.md/tweet.jpeg" alt="Tweet"/>
 <p>
 
 ## MOBILE DESIGN!
